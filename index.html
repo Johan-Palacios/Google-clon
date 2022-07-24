@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Google clon" />
     <meta name="robots" content="index,follow" />
+    <link
+      rel="shortcut icon"
+      href="https://cdn4.iconfinder.com/data/icons/new-google-logo-2015/400/new-google-favicon-512.png"
+      type="image/x-icon"
+    />
     <title>Google</title>
     <link rel="stylesheet" href="./css/main.css" />
   </head>
@@ -30,13 +35,15 @@
     <main>
       <section class="main-logo">
         <figure>
-          <img src="./images/google-logo.png" alt="google" />
+          <img src="./images/google-logo.jpg" alt="google" />
         </figure>
       </section>
       <section class="main-input">
         <div class="main-input-container">
           <span class="search-icon"></span>
-          <input type="text" />
+          <form action="https://www.google.com/search?q=" method="get">
+            <input type="text" />
+          </form>
           <a href="" class="micro-icon" title="Speak to search"></a>
         </div>
       </section>
@@ -49,5 +56,18 @@
         </div>
       </section>
     </main>
+    <footer>
+      <ul class="footer-left">
+        <li><a href="#">Publicidad</a></li>
+        <li><a href="#">Negocios</a></li>
+        <li><a href="#">Acerca de</a></li>
+        <li><a href="#">Cómo funciona la búsqueda</a></li>
+      </ul>
+      <ul class="footer-right">
+        <li><a href="#">Privacidad</a></li>
+        <li><a href="#">Condiciones</a></li>
+        <li><a href="#">Preferencias</a></li>
+      </ul>
+    </footer>
   </body>
 </html>
